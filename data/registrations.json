@@ -7,5 +7,14 @@
     "course": "B.Tech · 2nd Year",
     "roll": "987654567",
     "registeredAt": "2026-10-18T13:37:01.168Z"
+  },
+  {
+    "registrationId": "EE-26-HLBYQ9",
+    "eventId": 2,
+    "fullName": "janhvi",
+    "email": "janhvi.xgupta@gmail.com",
+    "course": "B.Tech · 1st Year",
+    "roll": "8765",
+    "registeredAt": "2026-10-18T17:09:36.544Z"
   }
 ]
