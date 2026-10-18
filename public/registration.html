@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EventEase — Registration</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="events">
+  <main class="main" id="main">
+    <section class="pagehead">
+      <div class="eyebrow">One step away</div>
+      <h1>Save your <span class="accent">spot.</span></h1>
+      <p>Fill in your details below to register. We'll show your confirmation as soon as your registration is complete.</p>
+    </section>
+
+    <div class="formlayout">
+      <form class="formcard" id="regForm" novalidate>
+        <div style="margin-bottom:22px">
+          <h2>Participant details</h2>
+          <p class="muted small">Please enter your details as they appear in your college records.</p>
+        </div>
+        <div class="formgrid">
+          <div class="field full">
+            <label for="fullName">Full name *</label>
+            <input id="fullName" name="fullName" placeholder="e.g. Janhvi Sharma" required minlength="2" autocomplete="name">
+          </div>
+          <div class="field full">
+            <label for="email">College email *</label>
+            <input id="email" name="email" type="email" placeholder="you@college.edu" required autocomplete="email">
+            <span class="hint">Use a valid email address for your registration.</span>
+          </div>
+          <div class="field">
+            <label for="course">Course &amp; year *</label>
+            <select id="course" name="course" required>
+              <option value="">Select course</option>
+              <option>B.Tech · 1st Year</option>
+              <option>B.Tech · 2nd Year</option>
+              <option>B.Tech · 3rd Year</option>
+              <option>B.Tech · 4th Year</option>
+              <option>BCA</option>
+              <option>MCA</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="roll">Roll number *</label>
+            <input id="roll" name="roll" placeholder="e.g. 24CSE102" required minlength="2">
+          </div>
+          <div class="field full">
+            <label for="selectedEvent">Selected event *</label>
+            <select id="selectedEvent" name="selectedEvent"></select>
+          </div>
+        </div>
+        <div class="submitrow">
+          <button class="primary" type="submit" id="submitBtn">Confirm registration &nbsp; ↗</button>
+        </div>
+        <p class="hint" style="margin:13px 0 0">By registering, you confirm that the details provided are accurate.</p>
+      </form>
+
+      <aside class="summarycard" id="summarycard">
+        <div class="empty">Loading event...</div>
+      </aside>
+    </div>
+  </main>
+
+  <div class="modalback" id="modalback" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal">
+      <div class="checkmark">✓</div>
+      <div class="eyebrow">Registration confirmed</div>
+      <h2 id="modalTitle">You're on the list!</h2>
+      <p id="modalMessage">Your registration was successful.</p>
+      <div class="regid" id="regid">EE-26-XXXXXX</div>
+      <div id="modalDetails" class="small muted" style="margin-bottom:20px"></div>
+      <button class="primary" type="button" id="modalClose">Done, thanks!</button>
+    </div>
+  </div>
+
+  <script src="js/common.js"></script>
+  <script src="js/registration.js"></script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EventEase — Home</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="home">
+  <main class="main" id="main">
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="eyebrow">Good things happen here</div>
+        <h1>Find your next<br><span class="accent">big experience.</span></h1>
+        <p>Discover workshops, tech talks, hackathons and more. Your next idea, new skill or favorite memory is just one event away.</p>
+        <div class="hero-actions">
+          <a class="primary" href="events.html">Explore events &nbsp; ↗</a>
+          <a class="secondary" href="events.html">Browse categories</a>
+        </div>
+        <div class="metrics" id="heroMetrics">
+          <div class="metric"><strong>--</strong><span>Curated events</span></div>
+          <div class="metric"><strong>--</strong><span>Event formats</span></div>
+          <div class="metric"><strong>∞</strong><span>New connections</span></div>
+        </div>
+      </div>
+      <div class="hero-art">
+        <div class="orb"></div>
+        <div class="hero-art-label">Your calendar, upgraded</div>
+        <div class="floating one" id="heroFeatured">
+          <div class="mini-label">Featured</div>
+          <div class="mini-title">Loading...</div>
+          <div class="mini-sub">Ideas that scale beyond the cloud.</div>
+        </div>
+        <div class="floating two">
+          <div class="mini-label">Community</div>
+          <div class="mini-title">Meet your people.</div>
+          <div class="tiny-avatars"><span>AK</span><span>SR</span><span>MJ</span><span>+</span></div>
+          <div class="mini-sub" style="margin-top:7px">Learn together, build together.</div>
+        </div>
+        <div class="floating three">
+          <div style="display:flex;gap:10px;align-items:center">
+            <div style="font-size:25px">✦</div>
+            <div>
+              <div class="mini-title" style="margin:0">Something exciting is coming</div>
+              <div class="mini-sub">New events, fresh opportunities.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="sectionhead">
+        <div>
+          <div class="eyebrow">Handpicked for you</div>
+          <h2>Featured events</h2>
+          <div class="muted small">A few good reasons to get out there.</div>
+        </div>
+        <a class="textlink" href="events.html">View all events →</a>
+      </div>
+      <div class="eventgrid" id="featuredGrid">
+        <div class="empty">Loading events...</div>
+      </div>
+    </section>
+
+    <section class="announcements">
+      <div>
+        <div class="eyebrow">Stay in the loop</div>
+        <h2>Latest announcements</h2>
+        <p class="muted small">The latest updates from your event community.</p>
+      </div>
+      <div class="announcement">
+        <div class="annicon">✦</div>
+        <div>
+          <h3>Registrations are open!</h3>
+          <p>Explore the November event lineup and reserve your spot while seats are available.</p>
+        </div>
+      </div>
+      <div class="announcement">
+        <div class="annicon">⌁</div>
+        <div>
+          <h3>Bring your curiosity</h3>
+          <p>Our hands-on workshops are designed for learning, collaboration and trying something new.</p>
+        </div>
+      </div>
+      <div class="announcement">
+        <div class="annicon">☁</div>
+        <div>
+          <h3>Cloud Native Summit is coming</h3>
+          <p>Join fellow tech enthusiasts for a day of cloud ideas, practical sessions and conversations.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/common.js"></script>
+  <script src="js/home.js"></script>
+</body>
+</html>

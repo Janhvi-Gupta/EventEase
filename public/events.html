@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EventEase — Events</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="events">
+  <main class="main" id="main">
+    <section class="pagehead">
+      <div class="eyebrow">Find your people</div>
+      <h1>Explore <span class="accent">events.</span></h1>
+      <p>From hands-on workshops to big ideas and friendly competition, find the event that fits your curiosity.</p>
+    </section>
+
+    <div class="filterbar">
+      <div class="searchbox">
+        <input type="text" id="searchInput" aria-label="Search events" placeholder="⌕  Search events...">
+      </div>
+      <select id="categoryFilter" aria-label="Filter category">
+        <option value="all">All categories</option>
+      </select>
+      <select id="dateFilter" aria-label="Filter date">
+        <option value="all">Any date</option>
+        <option value="week">First week</option>
+        <option value="later">Later dates</option>
+      </select>
+      <select id="venueFilter" aria-label="Filter venue">
+        <option value="all">All venues</option>
+      </select>
+      <select id="sortSelect" aria-label="Sort events">
+        <option value="soonest">Soonest first</option>
+        <option value="seats">Fewest seats</option>
+      </select>
+    </div>
+
+    <div id="eventResults">
+      <div class="eventgrid"><div class="empty">Loading events...</div></div>
+    </div>
+  </main>
+
+  <script src="js/common.js"></script>
+  <script src="js/events.js"></script>
+</body>
+</html>

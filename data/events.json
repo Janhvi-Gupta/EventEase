@@ -1,0 +1,162 @@
+[
+  {
+    "id": 1,
+    "title": "Cloud Native Summit",
+    "cat": "Cloud Computing",
+    "date": "2026-11-06",
+    "time": "10:00 AM – 2:00 PM",
+    "venue": "Innovation Hub · Block A",
+    "seats": 42,
+    "total": 80,
+    "tag": "Featured",
+    "tone": "forest",
+    "icon": "☁",
+    "desc": "Explore the building blocks of modern cloud infrastructure, from containers and orchestration to resilient, scalable applications. Meet fellow builders and learn through practical sessions.",
+    "schedule": [
+      ["10:00 AM", "Welcome & opening keynote"],
+      ["10:30 AM", "Cloud-native architecture"],
+      ["11:30 AM", "Kubernetes in practice"],
+      ["01:00 PM", "Q&A and networking"]
+    ]
+  },
+  {
+    "id": 2,
+    "title": "CodeSprint 24",
+    "cat": "Coding",
+    "date": "2026-11-09",
+    "time": "11:00 AM – 4:00 PM",
+    "venue": "Computer Lab · Block C",
+    "seats": 18,
+    "total": 60,
+    "tag": "Popular",
+    "tone": "sage",
+    "icon": "⌘",
+    "desc": "A fast-paced coding challenge built for curious problem-solvers. Sharpen your logic, collaborate with peers and tackle algorithmic puzzles in a friendly competitive setting.",
+    "schedule": [
+      ["11:00 AM", "Rules & challenge briefing"],
+      ["11:20 AM", "Coding round begins"],
+      ["02:30 PM", "Final submissions"],
+      ["03:30 PM", "Results & wrap-up"]
+    ]
+  },
+  {
+    "id": 3,
+    "title": "AI Build Lab",
+    "cat": "AI/ML",
+    "date": "2026-11-12",
+    "time": "09:30 AM – 1:00 PM",
+    "venue": "AI Studio · Block B",
+    "seats": 25,
+    "total": 50,
+    "tag": "Hands-on",
+    "tone": "moss",
+    "icon": "✳",
+    "desc": "Turn ideas into intelligent prototypes in an approachable, hands-on introduction to AI and machine learning workflows. Bring your curiosity; leave with a new perspective.",
+    "schedule": [
+      ["09:30 AM", "AI foundations"],
+      ["10:15 AM", "Guided model lab"],
+      ["11:30 AM", "Prototype sprint"],
+      ["12:30 PM", "Showcase & feedback"]
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Bug Bash: Find & Fix",
+    "cat": "Workshops",
+    "date": "2026-11-15",
+    "time": "10:00 AM – 1:30 PM",
+    "venue": "Dev Studio · Block D",
+    "seats": 12,
+    "total": 40,
+    "tag": "New",
+    "tone": "pine",
+    "icon": "⌁",
+    "desc": "Put your debugging instincts to the test. Trace unexpected behavior, inspect code, and work systematically to find and fix issues across a realistic web application.",
+    "schedule": [
+      ["10:00 AM", "Challenge briefing"],
+      ["10:15 AM", "Debugging round"],
+      ["12:15 PM", "Final verification"],
+      ["01:00 PM", "Winners announced"]
+    ]
+  },
+  {
+    "id": 5,
+    "title": "CyberShield Workshop",
+    "cat": "Cybersecurity",
+    "date": "2026-11-18",
+    "time": "12:00 PM – 3:00 PM",
+    "venue": "Seminar Hall 2",
+    "seats": 31,
+    "total": 55,
+    "tag": "Workshop",
+    "tone": "olive",
+    "icon": "⬡",
+    "desc": "Learn core security principles, threat awareness and secure development habits through guided examples and collaborative discussion.",
+    "schedule": [
+      ["12:00 PM", "Security fundamentals"],
+      ["12:45 PM", "Threat modelling"],
+      ["01:30 PM", "Secure coding patterns"],
+      ["02:30 PM", "Discussion & takeaways"]
+    ]
+  },
+  {
+    "id": 6,
+    "title": "FutureTech Talks",
+    "cat": "Seminars",
+    "date": "2026-11-21",
+    "time": "02:00 PM – 4:30 PM",
+    "venue": "Main Auditorium",
+    "seats": 67,
+    "total": 120,
+    "tag": "Talks",
+    "tone": "fern",
+    "icon": "✧",
+    "desc": "A series of short, thought-provoking talks about emerging technology, practical innovation and the ideas shaping the next generation of computing.",
+    "schedule": [
+      ["02:00 PM", "Opening remarks"],
+      ["02:15 PM", "Emerging tech lightning talks"],
+      ["03:15 PM", "Panel discussion"],
+      ["04:00 PM", "Audience Q&A"]
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Hack the Horizon",
+    "cat": "Hackathons",
+    "date": "2026-11-25",
+    "time": "09:00 AM – 5:00 PM",
+    "venue": "Innovation Hub · Floor 2",
+    "seats": 9,
+    "total": 45,
+    "tag": "Limited seats",
+    "tone": "forest",
+    "icon": "⌘",
+    "desc": "Build, experiment and collaborate on a creative technology idea in a high-energy mini hackathon. Teams will pitch their solutions at the end of the day.",
+    "schedule": [
+      ["09:00 AM", "Team check-in"],
+      ["10:00 AM", "Build phase"],
+      ["01:00 PM", "Mentor check-ins"],
+      ["04:00 PM", "Demos & judging"]
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Design Systems 101",
+    "cat": "Technology",
+    "date": "2026-11-28",
+    "time": "10:30 AM – 12:30 PM",
+    "venue": "Design Lab · Block A",
+    "seats": 36,
+    "total": 60,
+    "tag": "Learn",
+    "tone": "sage",
+    "icon": "▦",
+    "desc": "Discover how thoughtful design systems create consistent, accessible interfaces. Explore typography, spacing, reusable components and the details that make products feel polished.",
+    "schedule": [
+      ["10:30 AM", "Design system basics"],
+      ["11:00 AM", "Tokens & components"],
+      ["11:45 AM", "Accessibility review"],
+      ["12:15 PM", "Questions & next steps"]
+    ]
+  }
+]
