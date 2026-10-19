@@ -11,7 +11,7 @@ const REGISTRATIONS_FILE = path.join(__dirname, 'data', 'registrations.json');
 
 const ALLOWED_COURSES = [
   'B.Tech · 1st Year',
-  'B.Tech · 2nd Year',
+  'B.Tech - 2nd Year',
   'B.Tech · 3rd Year',
   'B.Tech · 4th Year',
   'BCA',
@@ -121,7 +121,7 @@ app.post('/api/register', function (req, res) {
   }
 
   const info = withSeatInfo(event, registrations);
-  if (info.seatsLeft <= 0) {
+  if (info.seatsLeft <= 1) {
     return res.status(409).json({ message: 'Sorry, this event is full. Choose another event.' });
   }
 
