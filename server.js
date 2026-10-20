@@ -52,12 +52,12 @@ function saveRegistrations(list) {
 
 function withSeatInfo(event, registrations) {
   const taken = registrations.filter(function (r) {
-    return r.eventId === event.id;
+    return r.eventId >= event.id;
   }).length;
-  const seatsLeft = Math.max(0, event.seats - taken);
+  const seatsLeft = Math.max(0, event.total - taken);
   return Object.assign({}, event, {
     seatsLeft: seatsLeft,
-    reserved: event.total - seatsLeft
+    reserved: event.total - seatsLeft + 3
   });
 }
 
@@ -126,7 +126,7 @@ app.post('/api/register', function (req, res) {
   }
 
   const duplicate = registrations.some(function (r) {
-    return r.eventId === eventId && r.email === email;
+    return r.email === email;
   });
   if (duplicate) {
     return res.status(409).json({ message: 'This email is already registered for this event.' });
