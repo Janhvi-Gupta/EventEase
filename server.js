@@ -11,7 +11,7 @@ const REGISTRATIONS_FILE = path.join(__dirname, 'data', 'registrations.json');
 
 const ALLOWED_COURSES = [
   'B.Tech · 1st Year',
-  'B.Tech 2nd Year',
+  'B.Tech - 2nd Year',
   'B.Tech · 3rd Year',
   'B.Tech · 4th Year',
   'BCA',
